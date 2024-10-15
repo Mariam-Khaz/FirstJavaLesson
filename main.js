@@ -3,6 +3,15 @@
 
 // console.log(x);
 
+
+// let greeting = "Hello";
+// let thirdPlanet = "World";
+
+// console.log(`to greet someone with ${greetings}`);
+// console.log(`Earth in allday talk ${thirdPLanet}`);
+
+
+
 // let firstName = "Mariam";
 // let age = "29";
 // let favoriteColor = "Blue";
