@@ -1,57 +1,48 @@
-// let x;
-// x = 125;
+// Uppgift 1
 
-// console.log(x);
+let thirdPlanet = "World";
 
+console.log( `Hello ${thirdPlanet}`);
 
-// let greeting = "Hello";
-// let thirdPlanet = "World";
+// Uppgift 2
 
-// console.log(`to greet someone with ${greetings}`);
-// console.log(`Earth in allday talk ${thirdPLanet}`);
+let firstName = "Mariam";
+let age = "29";
+let favoriteColor = "Blue";
 
+// Uppgift 3
 
+console.log(`My firstName is ${firstName}`);
+console.log(`My age is ${age}`);
+console.log(`My favorite color is ${favoriteColor}`);
 
-// let firstName = "Mariam";
-// let age = "29";
-// let favoriteColor = "Blue";
+let num1 = 100;
+let num2 = 50;
 
-// console.log(`Your firstName is ${firstName}`);
-// console.log(`Your age is ${age}`);
-// console.log(`Your favorite color is ${favoriteColor}`);
+let add = num1 + num2;
+let sub = num1 - num2;
+let mult = num1 * num2;
+let div = num1 / num2;
 
+console.log(` ${add}`);
+console.log(` ${sub}`);
+console.log(` ${mult}`);
+console.log(` ${div}`);
 
+//-------------------LESSON TWO - JS BASICS-------------------------------
+//   Task: 
+//  1. Ask the user to enter a price tag using prompt(), 
+//                for example: $49.99 
+//  2. Convert the input from string to number 
+//  3. Reduce the price by 10 procent 
+//  4. Print out the new price using console.log(), 
+//        for example: 'New price: $44.99' 
 
-// let online = false;
-// let forsale = true;
-// let isStudent = true;
+let price = prompt("Enter a price:$");
+let priceInd = price.slice(1);
+let priceConvert = parseFloat(priceInd);
 
-// condole.log(`Is this person online? ${online}`);
-// console.log(`Is this car for sale? ${forsale}`);
-// console.log(`Enrolled: ${isStudent}`);
+let newPrice = priceConvert * 0.9;
+let priceRound = Math.round(newPrice);
 
-
-// let students = 30;
-
-// student = students = 30 + 1;
-// students = students - 1;
-// student = students x 2;
-// students = students / 2;
-// student = students % 2;
-
-// students += 1;
-// students -= 1;
-// students *= 2;
-// students /= 2;
-// students++;
-// students--;
-
-// console.log(`My husbands age is ${age += 1}`);
-// console.log(`My husbands age is ${age ++}`);
-
-// let loggedInUser;
-// loggedInUser = "Mariam Khaz";
-
-0 / 0;  //NaN
-1 + NuN; //NaN
-
+console.log(`New price: $${priceRound}`);
